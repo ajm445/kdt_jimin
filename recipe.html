@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>잇(eat)다</title>
+  <link rel="foodbook icon" type="image/x-icon" href="tab-icon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/home-icon.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/recipe.css" />
+</head>
+<body class="index-page">
+
+  <!-- 헤더 -->
+  <header>
+    <nav class="navbar">
+      <i class="fas fa-bars hamburger"></i>
+      <div class="logo">잇(eat)다</div>
+      <ul class="nav-menu">
+        <li class="nav-item">레시피</li>
+        <li class="nav-item">커뮤니티</li>
+        <li class="nav-item">FAQ</li>
+        <li class="nav-item">마이페이지</li>
+      </ul>
+      <div class="menu-container">
+        <div class="menu-section">
+            <a href="recipe.html"><h4>레시피</h4></a>
+            <ul>
+                <li><a href="recipecol.html">레시피 모음</a></li>
+                <li><a href="ingredient.html">식재료 정보</a></li>
+                <li><a href="developing.html">조합 레시피(개발중)</a></li>
+            </ul>
+        </div>
+        <div class="menu-section">
+            <a href="commu.html"><h4>커뮤니티</h4></a>
+            <ul>
+                <li><a href="#">전체 질문</a></li>
+                <li><a href="#">전체 커뮤니티 글</a></li>
+                <li><a href="#">질문 작성</a></li>
+                <li><a href="#">나만의 레시피</a></li>
+            </ul>
+        </div>
+        <div class="menu-section">
+            <a href="faq.html"><h4>FAQ</h4></a>
+            <ul>
+              <li><a href="faq.html">요리 Q&A</a></li>
+              <li><a href="#">식재료 Q&A</a></li>
+              <li><a href="#">사이트 이용법</a></li>
+            </ul>
+        </div>
+        <div class="menu-section">
+            <a href="#"><h4>마이페이지</h4></a>
+            <ul>
+                <li><a href="#">프로필 관리</a></li>
+                <li><a href="#">내 저장 레시피</a></li>
+                <li><a href="#">내 활동</a></li>
+                <li><a href="#">설정</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+  </header>
+
+  <!-- 메인 -->
+  <main>
+    <section class="recipe-section">
+        <h2>인기 레시피</h2>
+        <div class="recipe-list">
+          <div class="recipe-item">
+            <div class="recipe-image-box">
+              <img src="https://via.placeholder.com/200x150" alt="김치볶음밥 이미지">
+            </div>
+            <div class="recipe-info-box">
+              <h3>김치볶음밥</h3>
+              <p>매콤한 김치와 고소한 참기름으로 간단하게 만드는 볶음밥 레시피입니다.</p>
+              <a href="#" class="btn">자세히 보기</a>
+            </div>
+          </div>
+
+          <div class="recipe-item reverse">
+            <div class="recipe-info-box">
+              <h3>불고기 덮밥</h3>
+              <p>달콤 짭짤한 불고기를 밥 위에 얹은 한 그릇 요리입니다.</p>
+              <a href="#" class="btn">자세히 보기</a>
+            </div>
+            <div class="recipe-image-box">
+              <img src="https://via.placeholder.com/200x150" alt="불고기 이미지">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="recipe-section">
+      <h2>많이 검색된 식재료</h2>
+      <div class="recipe-list">
+        <div class="recipe-item">
+          <div class="recipe-image-box">
+            <img src="https://via.placeholder.com/200x150" alt="두부 이미지">
+          </div>
+          <div class="recipe-info-box">
+            <h3>두부</h3>
+            <p>단백질이 풍부하고 다양한 요리에 사용되는 재료.</p>
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+        </div>
+
+        <div class="recipe-item reverse">
+          <div class="recipe-info-box">
+            <h3>계란</h3>
+            <p>조리법이 다양하고 어디에나 잘 어울리는 재료.</p>
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+          <div class="recipe-image-box">
+            <img src="https://via.placeholder.com/200x150" alt="계란 이미지">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-section">
+      <div class="dev-box">
+        🛠 조합 레시피는 아직 개발중입니다. 곧 만나보실 수 있어요!
+      </div>
+    </section>
+  </main>
+
+  <!-- 푸터 -->
+  <footer class="index-content">
+    <div class="license-section">
+      <p>
+        © 2025 다 - 잇(eat)다. All rights reserved.<br />
+        이 프로젝트는 <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT 라이센스</a>에 따라 배포됩니다.<br />
+        <a href="https://www.flaticon.com/kr/free-icon/eat_5451528" title="먹다 아이콘">탭 아이콘 제작자: IconKanan - Flaticon</a>
+      </p>
+    </div>
+  </footer>
+
+  <div class="home-icon">
+    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

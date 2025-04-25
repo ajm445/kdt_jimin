@@ -1,0 +1,30 @@
+/* 푸터 스타일 */
+footer {
+    background: linear-gradient(90deg, #6b9bff, #40c4ff);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.license-section {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.license-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.license-section a {
+    color: #fff3cd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.license-section a:hover {
+    color: #b3e5fc;
+    text-decoration: underline;
+}
